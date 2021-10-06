@@ -1,4 +1,4 @@
-// 숫자 카드 게임
+// 숫자 카드 게임 - 그리디
 const readline = require('readline');
 
 // 인터페이스 객체를 만들자.

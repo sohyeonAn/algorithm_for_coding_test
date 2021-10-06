@@ -1,3 +1,4 @@
+// 큰 수 찾기 - 그리디
 const readline = require('readline');
 
 // 인터페이스 객체를 만들자.
