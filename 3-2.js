@@ -28,7 +28,7 @@ rl.on("close", function(line){
   let result = 0;
 
 
-  
+
   // // 일반적으로 답을 도출하는 방법.
   // while(true){
   //   for(let i=0; i<k; i++){ // 가장 큰 수를 k번 더하기
