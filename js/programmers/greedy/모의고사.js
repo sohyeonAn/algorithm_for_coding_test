@@ -15,9 +15,9 @@ function solution(answers) {
   ];
   const score = [0, 0, 0];
   answers.forEach((answer, idx) => {
-    if (tester[0][idx % tester[0].length] === answer) score[0] += 1;
-    if (tester[1][idx % tester[1].length] === answer) score[1] += 1;
-    if (tester[2][idx % tester[2].length] === answer) score[2] += 1;
+    tester.forEach((t, i) => {
+      if (t[idx % tester[0].length] === answer) score[i] += 1;
+    });
   });
 
   const max = Math.max(...score);
